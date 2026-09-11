@@ -19,5 +19,39 @@ public class Curso {
         this.ciclo = ciclo;
         this.creditos = creditos;
     }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getCiclo() {
+        return ciclo;
+    }
+
+    public int getCreditos() {
+        return creditos;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setCiclo(int ciclo) {
+        this.ciclo = ciclo;
+    }
+
+    public void setCreditos(int creditos) {
+        this.creditos = creditos;
+    }
+    
+    
     
 }

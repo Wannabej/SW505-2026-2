@@ -20,5 +20,43 @@ public class Alumno {
         this.ciclo_relativo = ciclo_relativo;
         this.estado = estado;
     }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setCiclo_relativo(int ciclo_relativo) {
+        this.ciclo_relativo = ciclo_relativo;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getCiclo_relativo() {
+        return ciclo_relativo;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+    
+    
+    
+    
+    
+    
     
 }
